@@ -33,16 +33,16 @@ const About = () => {
         </div>
       </div>
       <div className="w-[80%] flex flex-col gap-4 justify-center items-center">
-        <div className="w-full h-[110px] border-2 border-black rounded-3xl"></div>
+        <div className="w-full h-[110px] border-2 border-black bg-[#63C2AA] rounded-3xl"></div>
         <div className="w-full flex justify-between">
-          <div className="w-[12%] h-[110px] border-2 border-black rounded-3xl"></div>
-          <div className="w-[87%] h-[110px] border-2 border-black rounded-3xl"></div>
+          <div className="w-[12%] h-[110px] border-2 border-black rounded-3xl bg-[#FEE63B]"></div>
+          <div className="w-[87%] h-[110px] border-2 border-black rounded-3xl bg-[#AFB0F0]"></div>
         </div>
         <div className="w-full flex justify-between">
-          <div className="w-[62%] h-[110px] border-2 border-black rounded-3xl"></div>
-          <div className="w-[37%] h-[110px] border-2 border-black rounded-3xl"></div>
+          <div className="w-[62%] bg-[#0613FD] h-[110px] border-2 border-black rounded-3xl"></div>
+          <div className="w-[37%] h-[110px] bg-[#FF5CB3] border-2 border-black rounded-3xl"></div>
         </div>
-        <div className="w-full h-[110px] border-2 border-black rounded-3xl"></div>
+        <div className="w-full h-[110px] bg-[#78B5C0] border-2 border-black rounded-3xl"></div>
       </div>
     </div>
   );
