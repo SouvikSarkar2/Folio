@@ -10,7 +10,7 @@ const About = () => {
         </div>
       </div>
       <div className="w-[80%] flex justify-between items-center py-10">
-        <div className="w-[60%] font-medium text-8xl font-helvetica">
+        <div className="w-[60%] font-medium text-8xl font-helvetica ">
           <div>Souvik Sarkar.</div>
           <div>Fullstack Developer</div>
         </div>
