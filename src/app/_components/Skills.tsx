@@ -15,7 +15,11 @@ import {
 
 const Skills = () => {
   return (
-    <div className="flex flex-col gap-6 justify-center items-center py-20 w-full">
+    <div
+      className="flex flex-col gap-6 justify-center items-center  w-full"
+      id="Skills"
+    >
+      <div className="w-full h-[150px]"></div>
       <div className="w-[80%] gap-2 flex items-center justify-start">
         <CornerDownRight />
         <div className="font-medium">S K I L L S</div>

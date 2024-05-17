@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import localfont from "next/font/local";
+import Image from "next/image";
+import Header from "@/components/Header/index";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -38,6 +40,16 @@ export default function RootLayout({
       <body
         className={`${inter.className} ${helvetica.variable} ${urbanist.variable}`}
       >
+        <div className="w-full fixed z-50 bg-white left-0 top-0 h-[100px] flex justify-center items-center border-b-2 border-b-black">
+          <div className="w-[90%] h-full flex justify-between items-center ">
+            <div className="relative w-[60px] h-[60px]">
+              <Image alt="" src={"/logo2.png"} fill />
+            </div>
+            <div className="relative font-urbanist">
+              <Header />
+            </div>
+          </div>
+        </div>
         {children}
       </body>
     </html>

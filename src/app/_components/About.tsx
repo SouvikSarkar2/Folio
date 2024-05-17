@@ -1,15 +1,11 @@
+import Image from "next/image";
 import React from "react";
 
 const About = () => {
   return (
-    <div className="w-full h-[110vh] flex flex-col justify-start items-center">
-      <div className="w-full h-[100px] flex justify-center items-center border-b-2 border-b-black">
-        <div className="w-[90%] h-full flex justify-between items-center ">
-          <div>Logo</div>
-          <div>Menu</div>
-        </div>
-      </div>
-      <div className="w-[80%] flex justify-between items-center py-10">
+    <div className="w-full flex flex-col justify-start items-center" id="About">
+      <div className="w-full h-[150px]"></div>
+      <div className="w-[80%] flex justify-between items-center pb-10">
         <div className="w-[60%] font-medium text-8xl font-helvetica ">
           <div>Souvik Sarkar.</div>
           <div>Fullstack Developer</div>

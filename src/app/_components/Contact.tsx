@@ -3,8 +3,12 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <div className="w-full flex justify-center items-center font-urbanist">
-      <div className="w-[80%] bg-[#282828] rounded-3xl my-10 flex flex-col gap-2 justify-center items-center text-[#FDFDFD]">
+    <div
+      className="w-full flex-col flex justify-center items-center font-urbanist"
+      id="Connect"
+    >
+      <div className="w-full h-[150px]"></div>
+      <div className="w-[80%] bg-[#282828] rounded-3xl mb-10 flex flex-col gap-2 justify-center items-center text-[#FDFDFD]">
         <div className="mt-[100px] ">connect</div>
         <div className="text-7xl font-bold">Let&apos;s create your</div>
         <div className="text-7xl font-bold">next Big Idea .</div>

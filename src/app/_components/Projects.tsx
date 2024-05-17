@@ -3,7 +3,11 @@ import React from "react";
 
 const Projects = () => {
   return (
-    <div className="w-full flex flex-col justify-start items-center">
+    <div
+      className="w-full flex flex-col justify-start items-center"
+      id="Projects"
+    >
+      <div className="w-full h-[120px]"></div>
       <div className="w-[80%] py-6 gap-2 flex items-center justify-start">
         <CornerDownRight />
         <div className="font-medium">P R O J E C T S</div>
