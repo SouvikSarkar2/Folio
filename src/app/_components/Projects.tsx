@@ -1,5 +1,6 @@
 import { ArrowRight, CornerDownRight } from "lucide-react";
 import React from "react";
+import ProjectCard from "./ProjectCard";
 
 const Projects = () => {
   return (
@@ -13,124 +14,25 @@ const Projects = () => {
         <div className="font-medium">P R O J E C T S</div>
       </div>
       <div className="w-[80%] flex flex-wrap justify-center items-center gap-6 p-6">
-        <div className="w-[350px] h-[350px] rounded-3xl bg-[#F3F4F8]">
-          <div className="w-full h-[75%]"></div>
-          <div className="w-full h-[25%] ">
-            <div className="pl-6 font-urbanist font-bold text-2xl">Hanaso</div>
-            <div>
-              <div className="flex gap-2 justify-start items-center text-xs pl-6 py-2">
-                <div className="border-[1.2px] border-black rounded-full px-2 py-0.5">
-                  SocketIO
-                </div>
-                <div className="border-[1.2px] border-black rounded-full px-2 py-0.5">
-                  Kafka
-                </div>
-                <div className="border-[1.2px] border-black rounded-full px-2 py-0.5">
-                  Redis
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="w-[350px] h-[350px] rounded-3xl bg-[#F3F4F8]">
-          <div className="w-full h-[75%]"></div>
-          <div className="w-full h-[25%] ">
-            <div className="pl-6 font-urbanist font-bold text-2xl">Ibento</div>
-            <div>
-              <div className="flex gap-2 justify-start items-center text-xs pl-6 py-2">
-                <div className="border-[1.2px] border-black rounded-full px-2 py-0.5">
-                  GraphQL
-                </div>
-                <div className="border-[1.2px] border-black rounded-full px-2 py-0.5">
-                  Maptiler
-                </div>
-                <div className="border-[1.2px] border-black rounded-full px-2 py-0.5">
-                  ChartJS
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="w-[350px] h-[350px] rounded-3xl bg-[#F3F4F8]">
-          <div className="w-full h-[75%]"></div>
-          <div className="w-full h-[25%] ">
-            <div className="pl-6 font-urbanist font-bold text-2xl">Shiken</div>
-            <div>
-              <div className="flex gap-2 justify-start items-center text-xs pl-6 py-2">
-                <div className="border-[1.2px] border-black rounded-full px-2 py-0.5">
-                  NextJS
-                </div>
-                <div className="border-[1.2px] border-black rounded-full px-2 py-0.5">
-                  mongoDB
-                </div>
-                <div className="border-[1.2px] border-black rounded-full px-2 py-0.5">
-                  Shadcn/ui
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="w-[350px] h-[350px] rounded-3xl bg-[#F3F4F8]">
-          <div className="w-full h-[75%]"></div>
-          <div className="w-full h-[25%] ">
-            <div className="pl-6 font-urbanist font-bold text-2xl">Hikari</div>
-            <div>
-              <div className="flex gap-2 justify-start items-center text-xs pl-6 py-2">
-                <div className="border-[1.2px] border-black rounded-full px-2 py-0.5">
-                  NextJS
-                </div>
-                <div className="border-[1.2px] border-black rounded-full px-2 py-0.5">
-                  NextAuth
-                </div>
-                <div className="border-[1.2px] border-black rounded-full px-2 py-0.5">
-                  Tailwind
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="w-[350px] h-[350px] rounded-3xl bg-[#F3F4F8]">
-          <div className="w-full h-[75%]"></div>
-          <div className="w-full h-[25%] ">
-            <div className="pl-6 font-urbanist font-bold text-2xl">
-              Quick Note
-            </div>
-            <div>
-              <div className="flex gap-2 justify-start items-center text-xs pl-6 py-2">
-                <div className="border-[1.2px] border-black rounded-full px-2 py-0.5">
-                  Typescript
-                </div>
-                <div className="border-[1.2px] border-black rounded-full px-2 py-0.5">
-                  Electron
-                </div>
-                <div className="border-[1.2px] border-black rounded-full px-2 py-0.5">
-                  Jotai
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="w-[350px] h-[350px] rounded-3xl bg-[#F3F4F8]">
-          <div className="w-full h-[75%]"></div>
-          <div className="w-full h-[25%] ">
-            <div className="pl-6 font-urbanist font-bold text-2xl">
-              Calculex
-            </div>
-            <div>
-              <div className="flex gap-2 justify-start items-center text-xs pl-6 py-2">
-                <div className="border-[1.2px] border-black rounded-full px-2 py-0.5">
-                  Expo
-                </div>
-                <div className="border-[1.2px] border-black rounded-full px-2 py-0.5">
-                  ReactNative
-                </div>
-                <div className="border-[1.2px] border-black rounded-full px-2 py-0.5">
-                  NativeWind
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+        <ProjectCard name="Hanaso" h1="SocketIO" h2="Redis" h3="Kafka" />
+        <ProjectCard name="Ibento" h1="GraphQL" h2="Maptiler" h3="ChartJS" />
+        <ProjectCard name="Shiken" h1="NextJS" h2="MongoDB" h3="Shadcn/ui" />
+
+        <ProjectCard name="Hikari" h1="NextJS" h2="NextAuth" h3="Tailwind" />
+
+        <ProjectCard
+          name="Quick note"
+          h1="Electron"
+          h2="Typescript"
+          h3="Jotai"
+        />
+
+        <ProjectCard
+          name="Calculex"
+          h1="Expo"
+          h2="ReactNative"
+          h3="Nativewind"
+        />
       </div>
       <div className="border-2 flex gap-2 text-sm py-2 font-semibold justify-center items-center my-10 border-black rounded-full px-2 w-[73%]">
         view all projects <ArrowRight size={15} />

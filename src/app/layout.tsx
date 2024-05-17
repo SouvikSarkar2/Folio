@@ -42,7 +42,7 @@ export default function RootLayout({
       >
         <div className="w-full fixed z-50 bg-white left-0 top-0 h-[100px] flex justify-center items-center border-b-2 border-b-black">
           <div className="w-[90%] h-full flex justify-between items-center ">
-            <div className="relative w-[60px] h-[60px]">
+            <div className="relative w-[60px] h-[60px] hover:rotate-180 duration-700 ease-in-out">
               <Image alt="" src={"/logo2.png"} fill />
             </div>
             <div className="relative font-urbanist">

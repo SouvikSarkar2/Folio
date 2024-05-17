@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React from "react";
+import CircularBtn from "@/components/CircularBtn/index";
 
 const About = () => {
   return (
@@ -10,21 +11,24 @@ const About = () => {
           <div>Souvik Sarkar.</div>
           <div>Fullstack Developer</div>
         </div>
-        <div className="w-[40%]  h-full">
+        <div className="w-[40%] flex flex-col gap-4 h-full">
           <div className="font-semibold h-[80%] text-2xl">
             I create fullstack websites with end to end functionality. I also
             create user interfaces that are intuitive and user friendly.
           </div>
           <div className="flex gap-2 h-[20%] justify-start items-center text-sm font-semibold">
-            <div className="border-[1.2px] border-black rounded-full px-2 py-0.5">
-              LinkedIn
-            </div>
-            <div className="border-[1.2px] border-black rounded-full px-2 py-0.5">
-              Github
-            </div>
-            <div className="border-[1.2px] border-black rounded-full px-2 py-0.5">
-              Leetcode
-            </div>
+            <CircularBtn
+              value="LinkedIn"
+              link="https://www.linkedin.com/in/souvik-sarkar-47aba9266/"
+            />
+            <CircularBtn
+              value="Github"
+              link="https://github.com/SouvikSarkar2"
+            />
+            <CircularBtn
+              value="Leetcode"
+              link="https://leetcode.com/u/SouvikSarkar/"
+            />
           </div>
         </div>
       </div>
