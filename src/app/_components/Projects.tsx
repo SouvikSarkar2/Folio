@@ -17,16 +17,13 @@ const Projects = () => {
         <ProjectCard name="Hanaso" h1="SocketIO" h2="Redis" h3="Kafka" />
         <ProjectCard name="Ibento" h1="GraphQL" h2="Maptiler" h3="ChartJS" />
         <ProjectCard name="Shiken" h1="NextJS" h2="MongoDB" h3="Shadcn/ui" />
-
         <ProjectCard name="Hikari" h1="NextJS" h2="NextAuth" h3="Tailwind" />
-
         <ProjectCard
           name="Quick note"
           h1="Electron"
           h2="Typescript"
           h3="Jotai"
         />
-
         <ProjectCard
           name="Calculex"
           h1="Expo"
