@@ -11,7 +11,7 @@ const About = () => {
           <div>Fullstack Developer</div>
         </div>
         <div className="w-[40%] flex flex-col gap-4 h-full">
-          <div className="font-semibold h-[80%] text-2xl">
+          <div className="font-semibold font-urbanist h-[80%] text-2xl">
             I create fullstack websites with end to end functionality. I also
             create user interfaces that are intuitive and user friendly.
           </div>
