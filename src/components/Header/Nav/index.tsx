@@ -3,6 +3,7 @@ import { FooterLinks, Links } from "./data";
 import styles from "./style.module.scss";
 import { motion } from "framer-motion";
 import { Dispatch, SetStateAction } from "react";
+import LinkComponent from "@/app/_components/Link";
 
 const perspective = {
   initial: {
@@ -91,7 +92,7 @@ const index = ({
             exit="exit"
             initial="initial"
           >
-            {link.title}
+            <LinkComponent link="" name={link.title} />
           </motion.p>
         ))}
       </div>

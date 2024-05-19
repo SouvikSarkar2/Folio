@@ -1,5 +1,5 @@
 export type Link = {
-  title: String;
+  title: string;
 };
 
 export const Links: Link[] = [

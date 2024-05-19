@@ -1,5 +1,6 @@
 import { ArrowUpRight, Copyright } from "lucide-react";
 import React from "react";
+import LinkComponent from "./Link";
 
 const Contact = () => {
   return (
@@ -16,11 +17,14 @@ const Contact = () => {
           Get in touch <ArrowUpRight size={20} />
         </div>
         <div className="w-[40%] flex justify-between items-center font-semibold py-6 text-lg">
-          <div>gmail</div>
-          <div>instagram</div>
-          <div>twitter</div>
-          <div>linkedIn</div>
-          <div>facebook</div>
+          <LinkComponent link="" name="gmail" />
+          <LinkComponent link="" name="instagram" />
+
+          <LinkComponent link="" name="twitter" />
+
+          <LinkComponent link="" name="linkedIn" />
+
+          <LinkComponent link="" name="facebook" />
         </div>
         <div className="w-full gap-1 flex justify-center items-center text-sm pb-4">
           <Copyright size={18} />
