@@ -23,7 +23,7 @@ const About = () => {
             />
             <CircularBtn
               value="Github"
-              link="https://github.com/SouvikSarkar2"
+              link="https://github.com/SouvikSarkar2?tab=repositories"
             />
             <CircularBtn
               value="Leetcode"

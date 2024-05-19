@@ -1,0 +1,31 @@
+.btn {
+  background: none;
+  cursor: pointer;
+  transition: 0.6s;
+  position: relative;
+  overflow: hidden;
+}
+
+.btn2:hover {
+  color: #fff;
+}
+
+.btn::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: 0%;
+  height: 100%;
+  background: #000000;
+  z-index: -1;
+  transition: 0.6s;
+}
+
+.btn2::before {
+  left: 0;
+  border-radius: 0 20% 20% 0;
+}
+
+.btn2:hover::before {
+  width: 180%;
+}

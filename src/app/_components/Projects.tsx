@@ -1,6 +1,7 @@
 import { ArrowRight, CornerDownRight } from "lucide-react";
 import React from "react";
 import ProjectCard from "./ProjectCard";
+import CircularBtn from "@/components/CircularBtn/type2";
 
 const Projects = () => {
   return (
@@ -57,10 +58,10 @@ const Projects = () => {
           color="#78B5C0"
         />
       </div>
-      <div className=" w-[71%] flex justify-end">
-        <div className="border-2 flex gap-2 text-sm py-2 font-semibold justify-center items-center my-10 border-black rounded-full px-2 w-[250px]">
-          view all projects <ArrowRight size={15} />
-        </div>
+      <div className=" w-[71%] flex justify-end pt-6">
+        <CircularBtn link="https://github.com/SouvikSarkar2">
+          view all projects <ArrowRight size={18} />
+        </CircularBtn>
       </div>
     </div>
   );
