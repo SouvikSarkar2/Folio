@@ -13,7 +13,7 @@ const index = ({
     <Link
       target="_blank"
       href={link}
-      className={`hover:gap-10 uppercase w-[260px] border-[1.2px] text-sm font-semibold  flex gap-2 justify-center items-center  rounded-full px-6 py-2 ${styles.btn} ${styles.btn2} btn-2`}
+      className={`hover:gap-10 uppercase w-[260px] border-[1.2px] text-sm font-semibold  flex gap-2 justify-center items-center  rounded-full px-6 py-2 ${styles.btn} ${styles.btn2}`}
     >
       {children}
     </Link>
