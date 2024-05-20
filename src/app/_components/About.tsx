@@ -13,7 +13,7 @@ const About = () => {
         <div className="w-[40%] flex flex-col gap-4 h-full">
           <div className="font-semibold font-urbanist h-[80%] text-2xl">
             I create fullstack websites with end to end functionality. I also
-            create user interfaces that are intuitive and user friendly.
+            create user interfaces that are intuitive and user friendly. 
           </div>
           <div className="flex gap-2 h-[20%] justify-start items-center text-sm font-semibold">
             <CircularBtn
