@@ -3,6 +3,7 @@
 import React, { useState } from "react";
 import Badge from "./Badge";
 import Image from "next/image";
+import Link from "next/link";
 
 const ProjectCard = ({
   name,
@@ -10,12 +11,14 @@ const ProjectCard = ({
   h2,
   h3,
   color,
+  link
 }: {
   name: string;
   h1: string;
   h2: string;
   h3: string;
   color: string;
+  link:string;
 }) => {
   const [view, setView] = useState(false);
 
@@ -28,7 +31,10 @@ const ProjectCard = ({
   };
 
   return (
-    <div
+    <Link
+    target="_blank"
+    href={link}
+
       className={`w-[350px] h-[200px]   border-black border-2 flex flex-col justify-end rounded-3xl relative  overflow-hidden`}
       style={{ backgroundColor: color }}
       onMouseEnter={handleEnter}
@@ -57,7 +63,7 @@ const ProjectCard = ({
           </div>
         </div>
       )}
-    </div>
+    </Link>
   );
 };
 

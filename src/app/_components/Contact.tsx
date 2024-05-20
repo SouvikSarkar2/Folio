@@ -17,7 +17,7 @@ const Contact = () => {
         <div className="text-7xl font-bold">Let&apos;s create your</div>
         <div className="text-7xl font-bold">next Big Idea .</div>
         <Link
-          href=""
+          href="mailto:12345souvik12345@gmail.com?"
           onMouseEnter={() => setHovered(true)}
           onMouseLeave={() => setHovered(false)}
           className={`border-2  ${
@@ -34,14 +34,14 @@ const Contact = () => {
           </span>
         </Link>
         <div className="w-[40%] flex justify-between items-center font-semibold py-6 text-lg">
-          <LinkComponent link="" name="gmail" />
-          <LinkComponent link="" name="instagram" />
+          
+          <LinkComponent link="https://www.instagram.com/souvik_baka/" name="instagram" />
 
-          <LinkComponent link="" name="twitter" />
+          <LinkComponent link="https://x.com/ALFAHELIX2" name="twitter" />
 
-          <LinkComponent link="" name="linkedIn" />
-
-          <LinkComponent link="" name="facebook" />
+          <LinkComponent link="https://www.linkedin.com/in/souvik-sarkar-47aba9266/" name="linkedIn" />
+            
+         
         </div>
         <div
           className={`w-full gap-1 flex justify-center items-center text-sm pb-4`}

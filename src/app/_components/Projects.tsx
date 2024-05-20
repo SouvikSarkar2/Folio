@@ -21,6 +21,7 @@ const Projects = () => {
           h2="Redis"
           h3="Kafka"
           color="#63C2AA"
+          link=""
         />
         <ProjectCard
           name="Ibento"
@@ -28,6 +29,8 @@ const Projects = () => {
           h2="Maptiler"
           h3="ChartJS"
           color="#FEE63B"
+          link="https://ibent0.vercel.app/"
+
         />
         <ProjectCard
           name="Shiken"
@@ -35,6 +38,7 @@ const Projects = () => {
           h2="MongoDB"
           h3="Shadcn/ui"
           color="#AFB0F0"
+          link="https://shiken.vercel.app/"
         />
         <ProjectCard
           name="Hikari"
@@ -42,6 +46,7 @@ const Projects = () => {
           h2="NextAuth"
           h3="Tailwind"
           color="#9B5DF4"
+          link="https://hikari-dusky.vercel.app/"
         />
         <ProjectCard
           name="QuickNote"
@@ -49,6 +54,7 @@ const Projects = () => {
           h2="Typescript"
           h3="Jotai"
           color="#FF5CB3"
+          link=""
         />
         <ProjectCard
           name="Calculex"
@@ -56,6 +62,7 @@ const Projects = () => {
           h2="ReactNative"
           h3="Nativewind"
           color="#78B5C0"
+          link=""
         />
       </div>
       <div className=" w-[71%] flex justify-end pt-6">

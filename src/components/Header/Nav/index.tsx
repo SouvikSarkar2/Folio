@@ -92,7 +92,7 @@ const index = ({
             exit="exit"
             initial="initial"
           >
-            <LinkComponent link="" name={link.title} />
+            <LinkComponent link={link.link} name={link.title} />
           </motion.p>
         ))}
       </div>
