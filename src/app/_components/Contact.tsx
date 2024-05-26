@@ -8,21 +8,21 @@ const Contact = () => {
   const [hovered, setHovered] = useState(false);
   return (
     <div
-      className="w-full flex-col flex justify-center items-center font-urbanist"
+      className="w-full  flex-col flex justify-center items-center font-urbanist"
       id="Connect"
     >
       <div className="w-full h-[150px]"></div>
-      <div className="w-[80%] bg-[#282828] rounded-3xl mb-10 flex flex-col gap-2 justify-center items-center text-[#FDFDFD]">
-        <div className="mt-[100px] ">connect</div>
-        <div className="text-7xl font-bold">Let&apos;s create your</div>
-        <div className="text-7xl font-bold">next Big Idea .</div>
+      <div className="w-full sm:w-[80%] bg-[#282828] rounded-t-3xl sm:rounded-3xl  sm:mb-10 flex flex-col gap-2 justify-center items-center text-[#FDFDFD]">
+        <div className="mt-[50px] sm:mt-[100px] ">connect</div>
+        <div className="text-3xl sm:text-7xl font-bold">Let&apos;s create your</div>
+        <div className="text-3xl sm:text-7xl font-bold">next Big Idea .</div>
         <Link
           href="mailto:12345souvik12345@gmail.com?"
           onMouseEnter={() => setHovered(true)}
           onMouseLeave={() => setHovered(false)}
           className={`border-2  ${
             hovered && "bg-white text-black "
-          } border-white justify-center items-center text-lg rounded-full px-6 py-1.5 my-6 flex gap-2 mb-[100px]`}
+          } border-white justify-center items-center text-lg rounded-full px-6 py-1.5 my-3 sm:my-6 flex gap-2 sm:mb-[100px]`}
         >
           Get in touch{" "}
           <span
@@ -33,7 +33,7 @@ const Contact = () => {
             <ArrowUpRight size={20} />
           </span>
         </Link>
-        <div className="w-[40%] flex justify-between items-center font-semibold py-6 text-lg">
+        <div className="w-full px-6 sm:px-0 sm:w-[40%] flex justify-between items-center font-semibold pt-6 sm:py-6 text-lg">
           
           <LinkComponent link="https://www.instagram.com/souvik_baka/" name="instagram" />
 

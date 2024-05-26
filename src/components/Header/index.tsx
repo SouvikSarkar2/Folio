@@ -6,18 +6,20 @@ import styles from "./style.module.scss";
 import { AnimatePresence, motion } from "framer-motion";
 import Nav from "./Nav/index";
 
+const isMobile = window.innerWidth <= 767;
+
 const variants = {
   open: {
-    width: 400,
-    height: 570,
+    width: isMobile ? 300 : 400,
+    height: isMobile ? 400 : 570,
     top: "-10px",
     right: "-10px",
     border: "2px solid black",
     transition: { duration: "0.75", ease: [0.76, 0, 0.24, 1] },
   },
   closed: {
-    width: 100,
-    height: 40,
+    width: isMobile ? 70 : 100,
+    height: isMobile ? 30 : 40,
     top: "0px",
     right: "0px",
     border: "2px solid black",

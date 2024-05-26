@@ -10,3 +10,14 @@
     border-radius: 25px;
   }
 }
+
+@media (max-width: 767px) {
+  .header {
+    right: 15px;
+    top: 15px;
+    .menu{
+      width: 280px;
+      height: 350px;
+    }
+  }
+}

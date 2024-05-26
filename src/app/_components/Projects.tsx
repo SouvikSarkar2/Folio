@@ -9,10 +9,10 @@ const Projects = () => {
       className="w-full flex flex-col justify-start items-center"
       id="Projects"
     >
-      <div className="w-full h-[120px]"></div>
+      <div className="w-full h-[90px] sm:h-[120px]"></div>
       <div className="w-[80%] py-6 gap-2 flex items-center justify-start">
         <CornerDownRight />
-        <div className="font-medium">P R O J E C T S</div>
+        <div className="font-medium text-lg sm:text-xl">P R O J E C T S</div>
       </div>
       <div className="w-[80%] flex flex-wrap justify-center items-center gap-6 pt-6">
         <ProjectCard
