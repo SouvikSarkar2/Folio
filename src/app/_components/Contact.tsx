@@ -33,7 +33,7 @@ const Contact = () => {
             <ArrowUpRight size={20} />
           </span>
         </Link>
-        <div className="w-full px-6 sm:px-0 sm:w-[40%] flex justify-between items-center font-semibold pt-6 sm:py-6 text-md sm:text-lg ">
+        <div className="w-full px-6 sm:px-0 sm:w-[40%] flex justify-between items-center font-semibold pt-6 sm:py-6 text-sm sm:text-lg ">
           
           <LinkComponent link="https://www.instagram.com/souvik_baka/" name="instagram" />
 
