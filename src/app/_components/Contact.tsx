@@ -22,7 +22,7 @@ const Contact = () => {
           onMouseLeave={() => setHovered(false)}
           className={`border-2  ${
             hovered && "bg-white text-black "
-          } border-white justify-center items-center text-lg rounded-full px-6 py-1.5 my-3 sm:my-6 flex gap-2 sm:mb-[100px]`}
+          } border-white justify-center items-center text-[17px]  sm:text-lg rounded-full px-4 sm:px-6 py-1 sm:py-1.5 my-3 sm:my-6 flex gap-2 sm:mb-[100px]`}
         >
           Get in touch{" "}
           <span
@@ -33,7 +33,7 @@ const Contact = () => {
             <ArrowUpRight size={20} />
           </span>
         </Link>
-        <div className="w-full px-6 sm:px-0 sm:w-[40%] flex justify-between items-center font-semibold pt-6 sm:py-6 text-lg">
+        <div className="w-full px-6 sm:px-0 sm:w-[40%] flex justify-between items-center font-semibold pt-6 sm:py-6 text-md sm:text-lg ">
           
           <LinkComponent link="https://www.instagram.com/souvik_baka/" name="instagram" />
 
