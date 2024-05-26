@@ -6,7 +6,10 @@ import styles from "./style.module.scss";
 import { AnimatePresence, motion } from "framer-motion";
 import Nav from "./Nav/index";
 
-const isMobile = window.innerWidth <= 767;
+let isMobile = false;
+if (typeof window !== "undefined") {
+  isMobile = window.innerWidth <= 767;
+}
 
 const variants = {
   open: {
